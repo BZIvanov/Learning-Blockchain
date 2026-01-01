@@ -1,0 +1,15 @@
+{
+  "name": "sui-blockchain-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sui:up": "docker compose up --build",
+    "sui:down": "docker compose down",
+    "sui:reset": "docker compose down -v",
+    "sui:logs": "docker compose logs -f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

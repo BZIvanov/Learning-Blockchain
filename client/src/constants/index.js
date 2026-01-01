@@ -1,1 +1,0 @@
-export const USER_TOKEN_NAME = 'USER_TOKEN_NAME';

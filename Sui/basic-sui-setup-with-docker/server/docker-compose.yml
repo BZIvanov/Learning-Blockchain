@@ -1,0 +1,13 @@
+services:
+  sui:
+    build: .
+    container_name: sui-localnet
+    ports:
+      - "9000:9000"
+      - "9123:9123"
+    volumes:
+      - sui-data:/root/.sui
+    restart: unless-stopped
+
+volumes:
+  sui-data:
